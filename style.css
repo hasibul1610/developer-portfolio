@@ -8,6 +8,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 #top-banner{
     background-image: url(images/top-banner.png);
@@ -32,6 +33,24 @@ section{
     
 }
 .hire-me-button:hover{
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 400;
+}
+.dream-big{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.download-cv-button{
+    margin-left: 8px;
+    padding: 10px 40px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    
+}
+.download-cv-button:hover{
     background-image: linear-gradient(orange,tomato);
     color: white;
     font-weight: 400;
