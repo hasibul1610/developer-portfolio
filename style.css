@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
@@ -57,13 +60,30 @@ h1{
 }
 .experience-item{
     width:40%;
-    padding: 10px;
+    padding-left: 20px;
     margin: 0 5%;
     box-shadow: 10px 10px 40px gray;
     border-radius: 8px;
+    
 }
 .experience-section{
     background-image: url(./images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    background-size: 6%;
+    
 }
+#experience-border-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(218, 91, 33),rgb(255, 109, 11));
+    border-image-slice: 1;
+}
+#experience-border-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
