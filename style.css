@@ -6,11 +6,11 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
-#top-banner{
+.top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -54,4 +54,16 @@ section{
     background-image: linear-gradient(orange,tomato);
     color: white;
     font-weight: 400;
+}
+.experience-item{
+    width:40%;
+    padding: 10px;
+    margin: 0 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 8px;
+}
+.experience-section{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
